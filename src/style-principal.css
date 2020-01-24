@@ -1,0 +1,118 @@
+body{
+    background: rgb(198,198,198);
+    background: linear-gradient(90deg, rgba(198,198,198,1) 0%, rgba(250,250,250,1) 53%, rgba(249,245,255,1) 100%);
+    font-family: 'Roboto', sans-serif;
+  }
+    #menu-navegacion{
+    height: 80px;
+    color: #000;
+  }
+    #menu{
+    float: left;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 25px;
+  }
+  
+    #logo>img{
+    display: block;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    margin: 0 auto;
+  }
+    #menu ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+    #menu>ul>li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 20px;
+  }
+  
+    #menu-navegacion{
+      display: flex;
+      justify-content: center;
+  }
+  
+    #logo{
+      width: 20%;
+      height: auto;
+  }
+  
+    .button {
+      padding: 8px 16px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 8px 4px;
+      transition-duration: 0.7s;
+      font-weight: bold;
+      height: 100%;
+  }
+    .btnVer {
+      background-color: transparent; 
+      color: black;
+  }
+    .btnVer:hover {
+      border-radius: 20px;
+      color: #000;
+      border: solid 2px goldenrod;
+  }
+    .btnVer2 {
+      background-color: transparent; 
+      color: black;
+  }
+    .btnVer2:hover {
+      border: solid 2px rgb(255, 64, 64);
+      border-radius: 20px;
+      color: #000;
+  }
+  .btnVer3 {
+    background-color: transparent; 
+    color: black;
+  }
+  .btnVer3:hover {
+    border: solid 2px green;
+    background-color: rgb(40, 204, 54);
+    border-radius: 20px;
+    color: #000;
+  }
+  .editaMesa{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 110px;
+        margin-bottom: 70px;
+  }
+  #contenido-principal{
+      float: left;
+      width: 75%;
+      padding-left: 15px;
+      padding-right: 15px;
+      box-sizing: border-box;
+  }
+  #lateral{
+      float: left;
+      width: 15%;
+  }
+    #descripcion{
+      margin-top: 50px;
+  }
+  #seccion>p{
+    width: 30%;
+    height: 80px;
+  }
+  
+  #lateral>img{
+    width: 150%;
+    height: 300px;
+    margin-top: 70px;
+  }
+  
