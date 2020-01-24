@@ -9,7 +9,7 @@ class PantallaA extends Component {
                     <div className="logo">
                         <img src="https://accmex.com.mx/wp-content/uploads/2017/06/logo-accmex-2.png" alt="accmex"/>
                     </div>
-                    <h1 id="fecha">Fecha</h1>
+        <h3 id="fecha">{Date()}</h3>
                     <div></div>
                 </div>
                 <div className="cuerpo">

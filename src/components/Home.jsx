@@ -13,7 +13,7 @@ class Home extends Component {
                     </div>
                     <nav id="menu">
                         <ul>
-                            <li><a href="" className="button btnVer">Editar mesa A</a></li>
+                            <li><Link to="/form1" className="button btnVer">Editar mesa A</Link>    </li>
                             <li><a href="" className="button btnVer">Editar mesa B</a></li>
                             <li><a href="" className="button btnVer2">Mostrar pantallas alternadas</a></li>
                         </ul>
